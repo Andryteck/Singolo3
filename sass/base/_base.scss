@@ -1,0 +1,71 @@
+@font-face { 
+    font-family: 'LatoBlack'; 
+    src: url('.assets/fonts/lato/Lato-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  @font-face { 
+    font-family: 'LatoBold'; 
+    src: url('.assets/fonts/lato/Lato-Bold.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+}
+  @font-face { 
+    font-family: 'LatoLight'; 
+    src: url('.assets/fonts/lato/Lato-Light.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+}
+  @font-face { 
+    font-family: 'LatoRegular'; 
+    src: url('.assets/fonts/lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+}
+  @font-face { 
+    font-family: 'LatoThin'; 
+    src: url('.assets/fonts/lato/Lato-Thin.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+  }
+  @font-face { 
+    font-family: 'LatoThin'; 
+    src: url('.assets/fonts/lato/Lato-Thin.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+  }
+  
+  body {
+    --primary: #f06c64;
+    --dark-background: #2d303a;
+    --light-background: #f2f2f2;
+    --text: #666d89;
+  
+    margin: 0;
+    padding: 0;
+  
+    font-family: "Lato", "Arial", sans-serif;
+    font-weight: normal;
+  
+    background-color: white;
+  }
+
+  h2,
+  h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+
+  font-weight: 900;
+  
+  color: $color-text;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  line-height: 0.8em;
+}

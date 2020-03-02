@@ -1,0 +1,20 @@
+button {
+    padding: 0;
+    font: inherit;
+    
+    cursor: pointer;
+    
+    color: inherit;
+    background-color: transparent;
+    border: none;
+  }
+  
+  button:not(:disabled):hover,
+  button:not(:disabled):focus {
+    filter: saturate(1.25);
+  }
+  
+  button:disabled {
+    opacity: 0.7;
+    cursor: default;
+  }
