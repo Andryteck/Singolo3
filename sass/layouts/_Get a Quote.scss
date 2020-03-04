@@ -9,7 +9,7 @@
     text-align: justify;
     letter-spacing: -0.012em;
   
-    color: $color-text;
+    
   }
 
   .contacts {
@@ -44,6 +44,7 @@
     padding: 12px 15px;
     width: 619px;
     box-sizing: border-box;
+    
   
     font: normal 12px/14px "Lato", "Arial", sans-serif;
     
@@ -148,22 +149,4 @@
     background: transparent url("assets/icons/email.svg") no-repeat left 7px;
   }
 
-  .icon.icon_facebook {
-    background-image: url("assets/icons/facebook.svg");
-  }
-  
-  .icon.icon_google-plus {
-    background-image: url("assets/icons/google.svg");
-    background-position-x: 7px;
-  }
-  
-  .icon.icon_twitter {
-    background-image: url("assets/icon_twitter.svg");
-    background-position-x: 7px;
-  }
-  
-  .icon.icon_linkedin {
-    background-image: url("assets/icon_linkedin.svg");
-    background-position-y: 7px;
-  }
   

@@ -23,7 +23,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "LatoThin";
+  font-family: "Lato";
   src: url(".assets/fonts/lato/Lato-Thin.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -119,7 +119,6 @@ button:disabled {
   font: 300 18px/30px "Lato", "Arial", sans-serif;
   text-align: justify;
   letter-spacing: -0.012em;
-  color: #666d89;
 }
 
 .contacts {
@@ -244,22 +243,72 @@ form button:hover {
   background: transparent url("assets/icons/email.svg") no-repeat left 7px;
 }
 
+footer {
+  padding-top: 22px;
+  padding-bottom: 19px;
+  background-color: var(--dark-background);
+  width: 100%;
+}
+
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .copyright {
+  margin-top: -4px;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: -0.004em;
+  color: var(--text);
+}
+
+footer .social-icons {
+  margin: 0;
+}
+
+.social-icons {
+  margin-top: 24px;
+  padding-left: 1px;
+}
+
+.social-icons .icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid var(--text);
+  border-radius: 50%;
+}
+
+.social-icons .icon:not(:first-child) {
+  margin-left: 4px;
+}
+
+.social-icons .icon:hover,
+.contact-form__info .phone:hover,
+.contact-form__info .email:hover {
+  opacity: 0.6;
+}
+
 .icon.icon_facebook {
-  background-image: url("assets/icons/facebook.svg");
+  background-image: url(assets/icons/facebook.svg);
 }
 
 .icon.icon_google-plus {
-  background-image: url("assets/icons/google.svg");
+  background-image: url(assets/icons/google.svg);
   background-position-x: 7px;
 }
 
 .icon.icon_twitter {
-  background-image: url("assets/icon_twitter.svg");
+  background-image: url(assets/icons/twitter.svg);
   background-position-x: 7px;
 }
 
 .icon.icon_linkedin {
-  background-image: url("assets/icon_linkedin.svg");
+  background-image: url(assets/icons/linkedin.svg);
   background-position-y: 7px;
 }
 
